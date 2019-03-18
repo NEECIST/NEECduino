@@ -47,4 +47,22 @@ Executa o script `erase.sh` e deverá dar a mensagem de `Operation Succeeded`
 
 
 ## Como programar o ATMega?
-**TODO**
+Fonte: [arduino.cc](https://www.arduino.cc/en/Tutorial/ArduinoISP)
+
+### 1. Configurar programador
+
+- Em Tools > Board e Serial Port, selecionar a placa que será usada como programador (Arduino UNO).
+- Carregar o exemplo ArduinoISP para a placa de programador
+
+### 3. Montagem
+Efetuar a montagem entre arduinos:
+
+<img src="https://www.arduino.cc/en/uploads/Tutorial/ArduinoUNOtoUNO_ISP2.jpg" data-canonical-src="https://www.arduino.cc/en/uploads/Tutorial/ArduinoUNOtoUNO_ISP2.jpg" width="400" />
+
+
+### 2. Gravar Bootloader
+
+- Em Tools > Board , selecionar a placa que será usada onde se encontra o ATMEGA (Arduino UNO) por programar
+- Selecionar Arduino as ISP em Tools > Programmer.
+- Usar o comando Burn Bootloader.
+
