@@ -1,7 +1,7 @@
 # Como programar os componentes?
 O NEECduino usa um *PIC18F14K50* e um *ATMega328*. Ambos precisam de ser programados para o seu correto funcionamento.
 
-## Como programar o PIC?
+## Como programar o PIC usando pk2cmd?
 **NOTA:** Todos os passos devem ser feitos na primeira vez, após isso basta repetir o passo 5.
 ### 1. Confirmar a instalação do pk2cmd
 Num terminal, confirma se está instalado, executando:
@@ -44,6 +44,9 @@ Executa o script `program.sh`. Se receberes o output `Program Succeeded.` o Pic 
 
 ### Extra: Apagar a memória do Pic
 Executa o script `erase.sh` e deverá dar a mensagem de `Operation Succeeded`
+
+## Como programar o PIC usando PICkit2?
+Por completar (A Alex vai fazer isso)
 
 
 ## Como programar o ATMega?
